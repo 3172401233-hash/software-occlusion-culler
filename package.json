@@ -1,0 +1,28 @@
+{
+  "name": "software-occlusion-culler",
+  "version": "1.0.0",
+  "description": "Dependency-free CPU software occlusion culling with a low-resolution depth buffer and hierarchical Z queries.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "occlusion-culling",
+ "software-rasterizer",
+ "depth-buffer",
+ "hierarchical-z",
+ "game-engine",
+ "frustum-culling"
+  ],
+  "license": "MIT"
+}
